@@ -1,7 +1,7 @@
-import { useState } from "react";
-import "./styles.css";
+import { useState } from "react"
+import "./styles.css"
 
-export default function Picture() {
+export default function Image() {
   const [isImgActive, setIsImgActive] = useState(false);
 
   return (
